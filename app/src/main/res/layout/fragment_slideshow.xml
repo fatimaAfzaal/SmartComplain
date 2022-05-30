@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="Rate App"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginEnd="58dp"
+        android:layout_weight="1"
+        android:numStars="5"
+        android:progressTint="#3DE3F8"
+        android:paddingStart="10dp"
+        android:paddingTop="20dp"
+        android:stepSize="0.25" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_loginedit"
+        android:text="SUBMIT"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5" />
+
+
+</LinearLayout>

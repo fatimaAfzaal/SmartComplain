@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".MainActivity4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4.5"
+        android:background="@drawable/background"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="Select department"
+            android:textColor="@color/white"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_loginedit"
+        android:drawableLeft="@drawable/ic_baseline_computer_24"
+        android:gravity="center|left"
+        android:paddingLeft="30dp"
+        android:paddingRight="0dp"
+        android:text="IT"
+        android:textColor="@color/black"
+        android:textDirection="ltr"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_loginedit"
+        android:drawableLeft="@drawable/ic_baseline_create_24"
+        android:gravity="center|left"
+        android:paddingLeft="30dp"
+        android:text="Exam"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_loginedit"
+        android:drawableLeft="@drawable/ic_baseline_admin_panel_settings_24"
+        android:gravity="center|left"
+        android:paddingLeft="30dp"
+        android:text="Admin"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="95dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_loginedit"
+        android:drawableLeft="@drawable/ic_baseline_account_balance_wallet_24"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:text="Account"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
